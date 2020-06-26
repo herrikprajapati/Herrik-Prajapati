@@ -7,20 +7,37 @@ body {
 
 }
 
-h1 {
+/** <!-- 100% = 16px  90px/16px = 562.5%  5.625em--> <!-- 16px = 100% = 1em --> **/
 
-  margin-top: 0;
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
   font-family: 'Sacramento', cursive;
+  line-height: 2;
+  margin: 50px auto 0 auto;
 
 
 }
 
 h2 {
+  color: #66bfbf;
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+
 }
 
 h3 {
+  color: #11999e;
   font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
 }
 
 /************** CLASS SELECTOR **************/
@@ -52,6 +69,46 @@ h3 {
   bottom: 300px;
 }
 
+.code-img {
+
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
+}
+
+.profile {
+  padding: 50px 0;
+}
+
+.profile-pic {
+  border-radius: 200px;
+  width: 12.5%;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.skills {
+ width: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto; /* 100px margin for Top & bottom Auto for Left & Right */
+  padding: 5px;
+  text-align: left;
+}
 
 
 

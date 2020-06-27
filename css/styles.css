@@ -39,6 +39,7 @@ a {
 
 p {
   line-height: 2;
+  color: #40514E;
 }
 
 hr {
@@ -71,6 +72,11 @@ hr {
   color: #EAF6F6;
 }
 
+.contact-me{
+
+  line-height: 2;
+
+}
 .top-cloud {
   position: absolute;
   top: 50px;

@@ -1,5 +1,10 @@
 /************** TAG SELECTOR **************/
 
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -32,16 +37,6 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #11999e;
-  text-decoration: none;
-}
-
-p {
-  line-height: 2;
-  color: #40514E;
-}
-
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -50,17 +45,19 @@ hr {
   width: 10%;
 }
 
-/************** CLASS SELECTOR **************/
 
-.top-container {
-  position: relative;
-  background-color: #E0EBE8;
-  padding-top: 100px;
+p {
+  line-height: 2;
+  color: #40514E;
 }
 
-.middle-container {
 
+/************** CLASS SELECTOR **************/
 
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
 }
 
 .bottom-container {
@@ -78,17 +75,6 @@ hr {
   line-height: 2;
 
 }
-.top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 400px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 400px;
-  bottom: 300px;
-}
 
 .code-img {
 
@@ -98,17 +84,15 @@ hr {
   margin-bottom: 30px;
 }
 
-.work-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-  margin-bottom: 10px;
-
+.footer-link {
+  padding: 0 15px;
 }
 
-.resume{
-  line-height: 2;
+.intro {
+  width: 40%;
+  margin: auto;
 }
+
 .profile {
   padding: 50px 0;
 }
@@ -118,12 +102,9 @@ hr {
   width: 12.5%;
 }
 
-.intro {
-  width: 40%;
-  margin: auto;
+.resume{
+  line-height: 2;
 }
-
-
 
 .skills {
  width: auto;
@@ -136,10 +117,24 @@ hr {
   text-align: left;
 }
 
-.footer-link {
-  padding: 0 15px;
+.top-container {
+  position: relative;
+  background-color: #E0EBE8;
+  padding-top: 100px;
 }
 
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
 
+.work-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+
+}
 
 /************** ID SELECTOR **************/

@@ -8,6 +8,7 @@ a {
 body {
   margin: 0;
   text-align: center;
+  color: #40514E;
   font-family: 'Merriweather', serif;
 
 }
@@ -30,6 +31,8 @@ h2 {
   font-size: 2.5rem;
   font-weight: bold;
 
+
+
 }
 
 h3 {
@@ -38,17 +41,25 @@ h3 {
 }
 
 hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #EAF6F6;
-  border-width: 10px;
-  width: 10%;
+  border: dotted #EAF6F6 8px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 5%;
 }
 
 
 p {
   line-height: 2;
-  color: #40514E;
+}
+
+
+.table{
+  width: 100%;
+}
+
+td {
+  padding: 0 5px;
+  line-height: 2;
 }
 
 
@@ -89,14 +100,17 @@ p {
 }
 
 .intro {
-  width: 40%;
+  width: 35%;
   margin: auto;
 }
 
-.profile {
-  padding: 50px 0;
+.middle-container {
+  margin: 100px 0;
 }
 
+.profile {
+  margin-bottom: 50px;
+}
 .profile-pic {
   border-radius: 200px;
   width: 12.5%;
@@ -106,12 +120,10 @@ p {
   line-height: 2;
 }
 
-.skills {
- width: auto;
-}
+
 
 .skill-row {
-  width: 50%;
+  width: 55%;
   margin: 100px auto; /* 100px margin for Top & bottom Auto for Left & Right */
   padding: 5px;
   text-align: left;
@@ -132,7 +144,7 @@ p {
 .work-img {
   width: 25%;
   float: right;
-  margin-left: 30px;
+
   margin-bottom: 10px;
 
 }
